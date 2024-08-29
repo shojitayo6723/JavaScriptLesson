@@ -89,49 +89,28 @@ const sayWorld = function() {
 sayWorld();
 
 // Q8
-// let calc = {
-//   x:3,
-//   y:4,
-//   add: function() {
-//     return this.x + this.y;
-//   }
-// };
+let calc = {
+  add: function(x,y) {
+    return x + y;
+  },
 
-// let result = calc.add();
-// console.log(result)
+  subtract: function(x,y) {
+    return x - y;
+  },
 
-// let calc = {
-//   x:30,
-//   y:20,
-//   subtract: function() {
-//     return this.x - this.y;
-//   }
-// };
+  multiply: function(x,y) {
+    return x * y;
+  },
 
-// let result = calc.subtract();
-// console.log(result)
+  divide: function(x,y) {
+    return x / y;
+  }
+};
 
-// let calc = {
-//   x:7,
-//   y:7,
-//   multiply: function() {
-//     return this.x * this.y;
-//   }
-// };
-
-// let result = calc.multiply();
-// console.log(result)
-
-// let calc = {
-//   x:10,
-//   y:2,
-//   divide: function() {
-//     return this.x / this.y;
-//   }
-// };
-
-// let result = calc.divide();
-// console.log(result)
+console.log(calc.add(4,3));
+console.log(calc.subtract(20,10));
+console.log(calc.multiply(7,7));
+console.log(calc.divide(10,2));
 
 // Q9
 function remainder() {
