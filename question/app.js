@@ -31,12 +31,11 @@ user['birthday'] = '2000-09-27';
 console.log(user.birthday);
 
 // #2
-user = function sayHello () {
+user.sayHello = function () {
   console.log('Hello!');
 }
 
-user();
-
+user.sayHello();
 
 // Q4
 let playerList = [
