@@ -28,6 +28,7 @@ console.log(age);
 // Q7
 // #1
 user['birthday'] = '2000-09-27';
+console.log(user.birthday);
 
 // #2
 user = function sayHello () {
